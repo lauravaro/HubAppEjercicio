@@ -1,0 +1,21 @@
+# Query: heather
+# ContextLines: 1
+
+5 resultados - Archivos de 2
+
+components/Header/Header.js:
+  3  import { initControler } from "../../utils/route";
+  4: import "./Header.css"; 
+  5  
+
+utils/initTemplate.js:
+   1: import {PrintTemplateHeader, PrintTemplateFooter} from "../components"
+   2  
+
+   5  
+   6:     const header = document.createElement("header");
+   7      const main = document.createElement("main");
+
+   9  
+  10:     app.append(header, main, footer);
+  11  
